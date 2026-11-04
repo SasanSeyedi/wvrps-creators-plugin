@@ -1,0 +1,10 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.pdb
+*.zip
+.env
+*.bak*
+*.pre_*
+REPORT_*.md
