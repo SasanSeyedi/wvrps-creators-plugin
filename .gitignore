@@ -1,0 +1,21 @@
+# Build artifacts
+Binaries/
+Intermediate/
+Saved/
+Build/
+
+# Editor cruft
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+
+# OS
+Thumbs.db
+.DS_Store
