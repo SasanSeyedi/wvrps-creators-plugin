@@ -1,21 +1,120 @@
+# ---- estate repo contract v1: base ignore (do not edit above the project section) ----
+# secrets: keys live in ~/.wvrps/.env or ~/.optimi/.env, never in a repo
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credential*
+*secret*
+id_rsa*
+# backups / cruft
+*.bak
+*.bak_*
+*.bak.*
+*.orig
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+# caches / builds (recreated, never moved)
+_backup*/
+_tmp/
+*.tsbuildinfo
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.next/
+dist/
+build/
+venv/
+.venv/
+_venv/
+*.egg-info/
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+.chrome-profile/
+# heavy media / weights: restored from backup via ASSETS_MANIFEST.json
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.exr
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.zip
+*.7z
+*.rar
+*.uasset
+*.umap
+*.pak
+*.psd
+*.tif
+*.tiff
+*.ply
+*.vox
+*.usd
+*.usdz
+*.abc
+*.npy
+*.npz
+*.pdb
+*.pch
+*.dll
+*.exe
+*.lib
+*.iso
+*.sqlite
+*.db
+*.blend1
+*.blend
+*.bphys
+*.stl
+*.bvh
+# images: raster renders out, small icons/thumbs allowed per project below with !rules
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+# ---- project section (edit below) ----
+# (kept from previous .gitignore)
 # Build artifacts
 Binaries/
 Intermediate/
 Saved/
 Build/
-
 # Editor cruft
 .vs/
 .vscode/
 *.user
 *.suo
-
 # Secrets — never commit
 .env
 .env.*
 *.pem
 *.key
-
 # OS
 Thumbs.db
 .DS_Store
+!Resources/Icons/*.png
+!docs/*.png
+!docs/*.jpg

@@ -38,3 +38,8 @@ Plugin source: MIT (see `LICENSE`). WVRPS assets: you may use them in your own g
 commercially; you may not resell the assets or transfer any commercial rights in them to anyone else.
 
 Support: https://wvrps.com/creators
+
+## Build & test
+
+- Run: copy this folder to `<YourProject>/Plugins/WVRPSCreators/`, open the project in Unreal 5.4/5.5, enable the plugin, open the WVRPS Creators panel (Window menu) and pair with your 8-digit code.
+- Test: `none` automated; smoke test = pair, browse the catalogue, import one asset (see `INSTALL.md`).
