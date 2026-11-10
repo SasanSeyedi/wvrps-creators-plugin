@@ -118,3 +118,6 @@ Thumbs.db
 !Resources/Icons/*.png
 !docs/*.png
 !docs/*.jpg
+
+# internal estate backup-contract artifact (carries local paths) - never publish
+ASSETS_MANIFEST.json
